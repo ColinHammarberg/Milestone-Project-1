@@ -54,13 +54,9 @@ h2{
 }
 
 #hero-image{
-    height:600px;
+    height:300px;
     width: 100%;
-    background: url("../images/Refer\ Doctor\ 1.png"); no-repeat center center;
-  
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    background: url("../images/Refer-Doctor.png"); no-repeat center center;
 
 }
 
@@ -71,14 +67,6 @@ h2{
     position: relative;
 }
 
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
 
 #cover-text, #cover-text h2 {
     color: #ffffff;
