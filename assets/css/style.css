@@ -8,14 +8,14 @@
 
 body{
     font-family: Lato;
-    color:#777777;
+    color:#264057;
 }
 
 h2{
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#555555;
+    color:#264057;
 }
 
 #logo{
@@ -46,17 +46,17 @@ h2{
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #FB9077;
 }
 
 .active{
-     border-bottom: 1px solid #777777;
+     border-bottom: 1px solid #264057;
 }
 
 #hero-image{
-    height:300px;
+    height:600px;
     width: 100%;
-    background: url("../images/Refer-Doctor.png"); no-repeat center center;
+    background: url("../images/Covid-Image.jpeg"); no-repeat center center;
 
 }
 
@@ -72,26 +72,7 @@ h2{
     color: #ffffff;
 }
 
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald;
-    text-transform: uppercase;
-    letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom:30px;
-    right: 120px;
-
-    position: absolute;
-
-}
 
 #club-ethos{
     height: 600px;
@@ -119,7 +100,12 @@ hr{
     border-top: 1px solid #777777;
     width: 100%;
     margin: 5px 0;
+    color: #264057;
     
+}
+
+.Collaboration {
+    color: #264057;
 }
 
 .left-about-heading{
@@ -128,6 +114,12 @@ hr{
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    color: #264057;
+
+}
+
+.left-about-heading h2 {
+     color: #FB9077;
 }
 
 .right-about-heading{
@@ -136,15 +128,24 @@ hr{
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    color: #264057; 
+
 }
 
 .right-about-heading h2{
     text-align: right;
+    color: #FB9077;
 }
 
 
 .right-about-heading p {
     text-align: right;
+    color: #264057;
+
+}
+
+.left-about-heading p {
+    color: #264057;
 }
 
 
@@ -152,6 +153,7 @@ hr{
     margin: 20px 0;
     text-align: center;
     font-size: 280%;
+    margin-top: 10px;
 }
 
 #circle-container{
@@ -159,23 +161,24 @@ hr{
     height: 300px;
     padding:30px;
     border-style: solid;
-    border-color:#cccccc;
+    border-color:#FB9077;
     border-width: 1px;
     border-radius: 50%;
-    margin:0 auto;
+    margin: 0 auto;
+    margin-top: 20px;
 
 }
  
 #circle-cover-bg{
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
+    background: url("../images/5.png") no-repeat center center;
     height:100%;
-    border-radius: 50%;
+    border-radius: 80%;
+   
 }
 
 #times{
-    background-image: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    
     background-position: center;
     width: 100%;
     overflow: hidden;
@@ -184,13 +187,12 @@ hr{
 
 #times div{
    color: #fafafa;
-   background-color: rgba(0,0,0, .6);
-   width: 19%;
-   height: 300px;
+   width: 25%;
+   height: 350px;
    float: left;
-   padding: 30px 0 0 10px;
+   padding: 40px 0 0 10px;
    text-align: center;
-   margin: 2px;
+   margin: 0;
 
 }
 
@@ -215,7 +217,7 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: #FB9077;
 }
 
 
@@ -331,6 +333,7 @@ footer{
     .left-about-heading h2 {
         width: 100%;
         text-align: center;
+        color: #FB9077;
 
     }
 
