@@ -360,3 +360,30 @@ footer{
     }
   }
 
+  /* ----------------------------------------Contact Form */
+
+
+  .contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 200px;
+    margin-bottom:25px;
+    color:#264057;
+}
+
+.center-form {
+    padding-top: 25px;
+    margin: 0 auto;
+    max-width: 78%;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #264057;
+    background-color: #FB9077;
+}
+
+/* ----------------------------------------Media Queries */
+
+
