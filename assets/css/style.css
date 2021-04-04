@@ -170,7 +170,7 @@ hr{
 }
  
 #circle-cover-bg{
-    background: url("../images/5.png") no-repeat center center;
+    background: url("../images/LOGO.png") no-repeat center center;
     height:100%;
     border-radius: 80%;
    
@@ -385,5 +385,4 @@ button[type="submit"] {
 }
 
 /* ----------------------------------------Media Queries */
-
 
