@@ -7,25 +7,25 @@
 }
 
 body{
-    font-family: Lato;
+    font-family: sans-serif;
     color:#264057;
 }
 
 h2{
-    font-family: Oswald;
+    font-family: sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color:#264057;
 }
 
 #logo{
     float: left; 
-    font-size: 280%;
+    font-size: 240%;
     margin-left: 30px;
 }
  
 #menu{
-    font-size: 110%;
+    font-size: 100%;
     list-style-type: none;
     letter-spacing: 4px;
 }
@@ -80,14 +80,15 @@ h2{
 
 #left-about{
     padding-top: 30px;
-    width: 33%;
-    float: left;
+    width: 40%;
+    float: right;
+    margin-right: 150px;
 }
 
 
 #right-about{
     padding-top: 30px;
-    width:33%;
+    width:40%;
     float: right;
 }
 
@@ -115,11 +116,13 @@ hr{
     clear: both;
     margin-bottom: 50px;
     color: #264057;
+    
 
 }
 
 .left-about-heading h2 {
      color: #FB9077;
+     letter-spacing: 2px;
 }
 
 .right-about-heading{
@@ -129,6 +132,7 @@ hr{
     clear: both;
     margin-bottom: 50px;
     color: #264057; 
+    
 
 }
 
@@ -152,8 +156,8 @@ hr{
 #welcome{
     margin: 20px 0;
     text-align: center;
-    font-size: 280%;
-    margin-top: 10px;
+    font-size: 220%;
+    margin-top: 50px;
 }
 
 #circle-container{
@@ -387,19 +391,24 @@ button[type="submit"] {
 /* ----------------------------------------Registration form */
 
 .sign-up-form {
-    width: 300px;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    width: 400px;
+    box-shadow:  0 0 3px 0 #FB9077;
     background: #fff;
-    padding: 20px;
+    padding: 65px;
     margin: 8% auto 0;
     text-align: center;
+    
 }
 
 .demo {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url(../images/Background-image.jpeg);
+    background-color: #fff;
     background-position: center;
 }
+
+
+
+
 
